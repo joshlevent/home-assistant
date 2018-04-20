@@ -38,7 +38,7 @@ CONF_FIELD = 'field'
 CONF_MEASUREMENT_NAME = 'measurement'
 CONF_WHERE = 'where'
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=60)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=10)
 
 _QUERY_SCHEME = vol.Schema({
     vol.Required(CONF_NAME): cv.string,
